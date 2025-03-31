@@ -80,6 +80,51 @@ This project uses **Python 3.9.2**. Please ensure you're using this version befo
 
 ---
 
+## 📁 Project Structure
+
+```
+NLP PROJECT/
+│
+├── data/                  # 📊 All generated CSV files go here
+│   ├── train.csv
+│   ├── test.csv
+│   ├── train_urls.csv
+│   ├── test_urls.csv
+│   ├── vocab.csv
+│   └── embedding_scores.csv
+│
+├── documents/             # 📄 Project documentation and info
+│   ├── naming_conventions.docx
+│   ├── project_outline.md
+│   └── dataset_info.md
+│
+├── myenv/                 # 🐍 Python virtual environment
+│
+├── notebooks/             # 📒 Jupyter notebooks for EDA/modeling
+│   └── imdb_sentiment_analysis.ipynb
+│
+├── outputs/               # 📈 Model results, plots, logs
+│
+├── src/                   # 🧠 Python source files
+│   └── generate_csv.py    # Script to convert dataset to CSVs
+│
+├── .gitignore             # 🧼 Ignore virtualenv, pycache, etc.
+├── README.md              # 📘 Project overview and setup
+├── requirements.txt       # 📦 Required Python packages
+```
+
+---
+
+## 🏷️ Label Meaning
+
+In all CSV files generated from the dataset:
+
+- `1` → **Positive review**
+- `0` → **Negative review**
+- `-1` → **Unlabeled review** (from the `unsup` folder)
+
+---
+
 ## 🤝 Contributing
 
 If you'd like to contribute, please fork the repository and submit a pull request.  

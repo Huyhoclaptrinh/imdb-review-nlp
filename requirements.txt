@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+nltk
+spacy
+beautifulsoup4
+matplotlib
+seaborn
+wordcloud
+xgboost
+lightgbm
+torch
+transformers
+dash
+plotly
