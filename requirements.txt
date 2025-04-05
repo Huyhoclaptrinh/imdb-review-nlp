@@ -13,3 +13,4 @@ torch
 transformers
 dash
 plotly
+tensorflow
